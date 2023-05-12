@@ -2,7 +2,7 @@ name: Template Tests
 on:
   pull_request: {}
   push:
-    branches: [main]
+    branches: [main, upgrade]
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 jobs:
